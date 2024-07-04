@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">Guess The Word that its scattered letters
+        <div class="scattered_letters"></div>
+    </div>
+
+    <div class="body">
+        <div class="the_word">
+            <div class="tries">
+                <div class="try">
+                    <div class="try_name">Try 1</div>
+                    <div class="letters" ></div>
+                </div>
+                <div class="try">
+                    <div class="try_name">Try 2</div>
+                    <div class="letters" ></div>
+                </div>
+                <div class="try">
+                    <div class="try_name">Try 3</div>
+                    <div class="letters" ></div>
+                </div>
+                <div class="try">
+                    <div class="try_name">Try 4</div>
+                    <div class="letters"> </div>
+                </div>
+                <div class="try">
+                    <div class="try_name">Try 5</div>
+                    <div class="letters"></div>
+                </div>
+            </div>
+            <div class="footer">
+                <button class="check_word">Check Word</button>
+                <button class="hint">Learn how to play</button>
+            </div>
+        </div>
+        <div class="key_colors">
+            <h1>Key Colors</h1>
+            <div class="itme">
+                <div class="color"></div>
+                <p>Letter is right and in place</p>
+            </div>
+            <div class="itme">
+                <div class="color"></div>
+                <p>Letter is right but not in place</p>
+            </div>
+            <div class="itme">
+                <div class="color"></div>
+                <p>Letter is wrong and not exists in word</p>
+            </div>
+        </div>
+    </div>
+  </div>
+     
+    <audio id="success" src="audio/success.mp3" preload="auto"></audio>
+    <audio id="correct" src="audio/correct.mp3" preload="auto"></audio>
+    <audio id="fail" src="audio/fail.mp3" preload="auto"></audio>
+    <audio id="error" src="audio/error-4.mp3" preload="auto"></audio>
+    <audio id="typing" src="audio/keyboard-typing-5997.mp3" preload="auto" ></audio>
+  
+    <script src="main.js" ></script>
+</body>
+</html>
